@@ -273,6 +273,7 @@ This project is licensed under the MIT License.
 - [React Documentation](https://react.dev/)
 - [Vite Documentation](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- https://persona-genai-liart.vercel.app/[live link]
 
 ## 💡 Future Enhancements
 
