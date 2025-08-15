@@ -12,7 +12,9 @@ const ChatInterface = () => {
   const [conversationHistory, setConversationHistory] = useState([]);
   const messagesEndRef = useRef(null);
 
-  const API_BASE_URL = 'http://localhost:3000';
+  const API_BASE_URL = process.env.NODE_ENV === 'production' 
+    ? window.location.origin 
+    : 'http://localhost:3000';
 
   useEffect(() => {
     loadPersonas();
